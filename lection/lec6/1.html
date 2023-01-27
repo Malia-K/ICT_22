@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+        body {
+        margin: 20px 40px;
+        }
+
+        p {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 16px;
+        }
+
+        /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+        .wrapper {
+        display: flex;
+        height: 60px;
+        background-color: green;
+        margin-bottom: 20px;
+        position: relative;
+        }
+
+        /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+        .redExample {
+        flex: 1;
+        background-color: red;
+        }
+
+        /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+        .blueExample {
+        flex: 1;
+        background-color: blue;
+        }
+
+        /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+        .emptyExample2 {
+        display: flex;
+        flex: 1;
+        flex-direction: row-reverse;
+        }
+
+        .blueExample2 {
+        width: 80px;
+        background-color: blue;
+        }
+        
+        .redExample2 {
+        width: 80px;
+        background-color: red;
+        }
+
+        .redExample3 {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        
+        left: 50%;
+        top: 50%;
+        margin-left: -20px;
+        margin-top: -20px;
+        background-color: red;
+        }
+
+        
+        .blueExample3 {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        flex: 1;
+        background-color: blue;
+        }
+        .green {
+        height: 33%;
+        background-color: green;
+        }
+
+        .disp8 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-between;
+        flex: 1;
+        }
+
+        .yellow1 {
+        width: 80px;
+        background-color: rgb(255, 196, 0);
+        }
+
+        .disp9 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-evenly;
+        flex: 1;
+        background-color: rgb(255, 196, 0);
+        }
+        .green2 {
+        width: 3%;
+        background-color: green;
+        }
+
+
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+
+  <body>
+    <p>Assignment 1</p>
+    <p>Provided Examples</p>
+
+    <p>Row 1</p>
+    <div class="wrapper">
+      <div class="redExample"></div>
+      <div class="blueExample"></div>
+    </div>
+
+    <p>Row 2</p>
+    <div class="wrapper">
+      <div class="emptyExample2">
+        <div class="blueExample2"></div>
+      </div>
+    </div>
+
+    <!-- TODO: Insert div elements in the next 7 wrappers for your solution -->
+    <p>Student TODOs</p>
+
+    <p>Row 3</p>
+    <div class="wrapper"> 
+        <div class="redExample2"></div> 
+        <div class="emptyExample2">
+            <div class="blueExample2"></div>
+        </div>
+    </div>
+
+    <p>Row 4</p>
+    <div class="wrapper">
+        <div class="redExample"></div> 
+        <div class="blueExample2"></div>
+    </div>
+
+    <p>Row 5</p>
+    <div class="wrapper">
+        <div class="redExample3"></div> 
+    </div>
+
+    <p>Row 6</p>
+    <div class="wrapper">
+        <div class="redExample"></div> 
+        <div class="blueExample2"></div>
+        <div class="redExample"></div> 
+    </div>
+
+    <p>Row 7</p>
+    <div class="wrapper">
+        <div class="redExample2"></div> 
+        <div class="blueExample3">
+            <div class="green"></div>
+        </div>
+    </div>
+
+    <p>Row 8</p>
+    <div class="wrapper">
+        <div class="disp8">
+            <div class="yellow1"></div>
+            <div class="yellow1"></div>
+            <div class="yellow1"></div>
+            <div class="yellow1"></div>
+            <div class="yellow1"></div>
+        </div>
+    </div>
+
+    <p>Row 9</p>
+    <div class="wrapper">
+        <div class="disp9">
+            <div class="green2"></div>
+            <div class="green2"></div>
+            <div class="green2"></div>
+            <div class="green2"></div>
+        </div>
+    </div>
+  </body>
+</html>

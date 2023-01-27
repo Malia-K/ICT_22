@@ -1,0 +1,7 @@
+Time_of_the_day = [10, 11, 1, 14, 2, 14, 9, 5, 5, 9, 0, 6, 6, 23, 19, 19, 19, 2, 4, 19, 2, 18, 4, 15, 12, 22, 12, 4, 7] 
+
+Number_of_viewers = [23811, 47309, 25461, 9719, 30176, 5560, 45401, 43503, 40367, 20385, 26368, 2429, 29969, 37973, 17662, 37070, 5146, 47057, 1423, 46764, 25286, 46267, 4617, 9894, 14649, 2477, 16949, 47644, 4693]
+
+Average_age_of_viewers = [20, 16, 30, 29, 14, 21, 7, 27, 22, 15, 28, 27, 27, 17, 12, 28, 26, 11, 19, 7, 25, 17, 26, 24, 23, 27, 30, 15, 13] 
+
+Video_game= ["League of Legend", "Fifa", "Minecraft", "Minecraft", "Fifa", "League of Legend", "GTA V", "League of Legend", "League of Legend", "League of Legend", "Minecraft", "Minecraft", "Minecraft", "Fifa", "Fifa", "League of Legend", "Minecraft", "Fifa", "Minecraft", "GTA V", "Minecraft", "Fifa", "Minecraft", "League of Legend", "League of Legend", "Minecraft", "Minecraft", "Fifa", "League of Legend"]
